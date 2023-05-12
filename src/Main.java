@@ -1,14 +1,10 @@
-
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int a = 12;
-        int b = 24;
-        int c = 36;
-
-        int sum = a + b + c;
-
-        System.out.println(sum);
-
+       Scanner input = new Scanner(System.in);
+        System.out.print("Enter your roll no. : ");
+        int roll_no = input.nextInt();
+        System.out.println("Your Roll no. is " + roll_no);
     }
 }
