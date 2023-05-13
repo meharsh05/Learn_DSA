@@ -33,3 +33,23 @@ public class PracticeQues{
         
     }
 } */
+
+/* Ques 3. Write a program to find factorial of a given number using for loop */
+
+import java.util.Scanner;
+
+public class PracticeQues{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = sc.nextInt();
+        
+        int factorial = 1;
+
+        for(int i=1; i<=n; i++){
+            factorial = factorial * i;
+        }
+        System.out.println(factorial);
+
+    }
+}
