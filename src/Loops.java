@@ -44,14 +44,14 @@ public class Loops {
 //     }
 
 
-/* 3. Print first 5 odd numbers  */
+/* 3. Print first 5 odd numbers  
 public class Loops{
     public static void main(String[] args) {
         for(int i = 1; i<=10 ; i=i+2){
             System.out.println(i);
         }
     }
-}
+} */
 
-
+ 
 
