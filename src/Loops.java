@@ -1,4 +1,4 @@
-/* 1. Printing Counting using while loop
+ /*  1. Printing Counting using while loop
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Loops {
         }
         System.out.println("Counting Finished!"); 
     }
-    }*/
+    } */
 
     /* 2. Printing an table */
 
