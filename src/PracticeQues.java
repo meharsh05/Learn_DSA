@@ -34,7 +34,7 @@ public class PracticeQues{
     }
 } */
 
-/* Ques 3. Write a program to find factorial of a given number using for loop */
+/* Ques 3. Write a program to find factorial of a given number using for loop 
 
 import java.util.Scanner;
 
@@ -52,4 +52,23 @@ public class PracticeQues{
         System.out.println(factorial);
 
     }
+} */
+
+/* Ques 4.  Create an array of 5 floats and print sum of them */
+
+public class PracticeQues{
+    public static void main(String[] args){
+        float[] marks = {20.12f, 35.25f, 55.10f, 60.12f};
+        float sum = 0;
+
+        for(float Element : marks){
+            sum = sum + Element;
+        }
+        System.out.println("The value of sum is: " + sum);
+    }
+      
+        
+
+        
+    
 }
