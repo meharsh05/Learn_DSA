@@ -61,14 +61,14 @@ public class PracticeQues{
         float[] marks = {20.12f, 35.25f, 55.10f, 60.12f};
         float sum = 0;
 
+        // for(int i = 0; i<marks.length; i++){
+        //     sum = sum + marks[i];
+        // }
+
         for(float Element : marks){
             sum = sum + Element;
         }
         System.out.println("The value of sum is: " + sum);
+        
     }
-      
-        
-
-        
-    
 }
