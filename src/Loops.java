@@ -53,5 +53,16 @@ public class Loops{
     }
 } */
 
- 
+/* 4. Print first 10 numbers using While loop  */
+
+class Loops{
+    public static void main(String[] args) {
+        int count = 1;
+        //int n = 10;
+        while(count != 11){
+            System.out.println(count);
+            count++;
+        }
+    }
+}
 
