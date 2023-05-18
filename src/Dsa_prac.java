@@ -28,3 +28,23 @@ public class Dsa_prac {
         }
     }
 } */
+
+/* Q.2 Take an input from user as an charatcer and print lower case or upper case letter */
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        try (Scanner s = new Scanner(System.in)) {
+            System.out.println("Enter the character:");
+            char ch = s.next().charAt(0); // Taking char as an input 
+
+            if(ch >= 'a' && ch <= 'z'){
+                System.out.println("It's lowercase");
+            }
+            else{
+                System.out.println("It's Uppercase");
+            }
+        }
+    }
+}
