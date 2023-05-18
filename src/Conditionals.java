@@ -35,13 +35,13 @@ class Conditionals{
              int salary = s.nextInt();
 
              if(salary>=20000){
-                salary = salary + 2000;
+                salary += 2000;
              }
              else if(salary > 15000 && salary < 20000){
-                salary = salary + 1000;
+                salary += 1000;
              }
              else{
-                salary = salary + 500;
+                salary += 500;
              }
 
              System.out.println("The new salary is : " + salary);
