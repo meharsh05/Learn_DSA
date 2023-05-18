@@ -1,6 +1,6 @@
 /* Q1. Take an input of 3 numbers from user and print the max.
  number using conditional statements.
- */
+ 
 
 import java.util.Scanner;
 
@@ -27,5 +27,4 @@ public class Dsa_prac {
             System.out.println("The maximum value is " + max);
         }
     }
-    
-}
+} */
