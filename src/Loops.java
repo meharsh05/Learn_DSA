@@ -70,21 +70,22 @@ class Loops{
 
 /* Q5. Take an input from user and print numbers from 1 to n 
 using "for loop".
-*/
+
 
 import java.util.Scanner;
 
 class Loops{
     public static void main(String[] args) {
         try (Scanner s = new Scanner(System.in)) {
+            
             System.out.print("Enter the value of n: ");
             int n = s.nextInt();
 
             for (int i = 1; i <= n; i++) {
-                System.out.println(i);
+                System.out.println(i);    
                 
             }
         }
     }
-}
+} */
 
