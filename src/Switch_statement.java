@@ -1,4 +1,4 @@
-//Calculator using Switch Statement
+/*Calculator using Switch Statement
 
 import java.util.Scanner;
 
@@ -27,4 +27,6 @@ public class Switch_statement {
         }
 
     }
-}
+} */
+
+
