@@ -94,7 +94,7 @@ class Dsa_prac{
     }
 } */
 
-/* Q.5 Take an input from user as number and reverse that number  */
+/* Q.5 Take an input from user as number and reverse that number  
 
 import java.util.Scanner;
 
@@ -114,5 +114,28 @@ class Dsa_prac{
             System.out.println("The reversed number is : " + ans);
         }
 
+    }
+} */
+
+/* Q.6 Swipe two numbers  */
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int temp;
+
+        System.out.print("Enter first number: ");
+        int a = in.nextInt();
+        System.out.print("Enter second number: ");
+        int b = in.nextInt();
+
+        temp = a;
+        a = b;
+        b= temp;
+
+        System.out.println("The value of a is " + a);
+        System.out.println("The value of b is " + b);
     }
 }
