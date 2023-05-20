@@ -45,3 +45,14 @@ class Functions{
         }
     }
 } */ 
+
+/* Q.3 Variable length Arguments */
+import java.util.Arrays;
+class Functions{
+    public static void main(String[] args) {
+        fun("Harsh", "Vandana", "juhi", "Aaira");
+    }
+    static void fun(String...v){ // Variable length Argument is used and this can be used for any data type like int, char, float
+        System.out.println(Arrays.toString(v));
+    }
+}
