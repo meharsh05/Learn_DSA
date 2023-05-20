@@ -141,7 +141,7 @@ class Dsa_prac{
     }
 } */
 
-/* Q.7 Take an input of numbers from user and tell whether number is prime or not prime. */
+/* Q.7 Take an input of numbers from user and tell whether number is prime or not prime. 
 
 import java.util.Scanner;
 
@@ -169,4 +169,4 @@ class Dsa_prac{
         }
         return a*a > num;
     }
-}
+} */
