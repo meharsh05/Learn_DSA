@@ -170,3 +170,33 @@ class Dsa_prac{
         return a*a > num;
     }
 } */
+
+/* Q.8 Print all 3 digit armstrong numbers */
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            // System.out.print("Enter the number: ");
+            // int n = sc.nextInt();
+
+            for (int i = 100; i < 1000; i++) {
+                if(isArmstrong(i)){
+                    System.out.println(i + " ");
+                }   
+            }
+        }   
+    }
+    static boolean isArmstrong(int n){
+        int original = n;
+        int sum = 0;
+
+        while(n > 0){
+            int rem = n % 10;
+            n = n / 10;
+            sum = sum + rem * rem * rem;
+        }
+        return sum == original;
+    }
+}
