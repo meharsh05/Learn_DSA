@@ -117,7 +117,7 @@ class Dsa_prac{
     }
 } */
 
-/* Q.6 Take an input from user and Swipe two numbers  */
+/* Q.6 Take an input from user and Swipe two numbers  
 
 import java.util.Scanner;
 
@@ -139,4 +139,34 @@ class Dsa_prac{
             System.out.println("The value of b is " + b);
         }
     }
-} 
+} */
+
+/* Q.7 Take an input of numbers from user and tell whether number is prime or not prime. */
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.println("Enter the number: ");
+            int num = in.nextInt();
+            
+            boolean ans = isPrime(num);
+            System.out.println(ans);
+        }
+
+    }
+    static boolean isPrime(int num){
+        if(num <= 1){
+            return false;
+        }
+        int a = 2;
+        while(a*a <= num){
+            if(num % a == 0){
+                return false;
+            }
+            a++;
+        }
+        return a*a > num;
+    }
+}
