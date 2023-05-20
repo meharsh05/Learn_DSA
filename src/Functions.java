@@ -56,3 +56,88 @@ class Functions{
         System.out.println(Arrays.toString(v));
     }
 } */
+
+/* Q.4 Print all 3 digit armstrong numbers 
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            // System.out.print("Enter the number: ");
+            // int n = sc.nextInt();
+
+            for (int i = 100; i < 1000; i++) {
+                if(isArmstrong(i)){
+                    System.out.println(i + " ");
+                }   
+            }
+        }   
+    }
+    static boolean isArmstrong(int n){
+        int original = n;
+        int sum = 0;
+
+        while(n > 0){
+            int rem = n % 10;
+            n = n / 10;
+            sum = sum + rem * rem * rem;
+        }
+        return sum == original;
+    }
+} */
+
+/* Q.5 Take an input of numbers from user and tell whether number is prime or not prime. 
+
+import java.util.Scanner;
+
+class Dsa_prac{
+    public static void main(String[] args) {
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.println("Enter the number: ");
+            int num = in.nextInt();
+            
+            boolean ans = isPrime(num);
+            System.out.println(ans);
+        }
+
+    }
+    static boolean isPrime(int num){
+        if(num <= 1){
+            return false;
+        }
+        int a = 2;
+        while(a*a <= num){
+            if(num % a == 0){
+                return false;
+            }
+            a++;
+        }
+        return a*a > num;
+    }
+} */
+
+/* Q.6 Take an input from user and print the factorial of n. */
+
+import java.util.Scanner;
+
+class Functions{
+    static void sumFactorial(int n){
+        if(n < 0){
+            System.out.println("Invalid number");
+        }
+        int factorial = 1;
+        for(int i = n; i>=1; i--){
+            factorial = factorial * i;
+    }
+    System.out.println(factorial);
+}
+    public static void main(String[] args){
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter the value of n: ");
+            int n = sc.nextInt();
+            
+            sumFactorial(n);
+        }   
+    }
+}
